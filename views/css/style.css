@@ -1,0 +1,426 @@
+* {
+    font-family: 'Chilanka', cursive;
+}
+
+nav {
+    width: 95%;
+    margin: 0 auto;
+    padding: 16px 0;
+}
+
+.banner {
+    width: 100%;
+    height: 300px;
+    background: rgb(160, 160, 218);
+}
+
+.contenidoInicio {
+    width: 95%;
+    margin: 0 auto;
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.informacionInicio {
+    width: 60%;
+    text-align: center;
+}
+
+.infoTexto {
+    padding-bottom: 20px;
+}
+
+.novedadesProductos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(23%, 1fr));
+    grid-gap: 16px;
+    margin-bottom: 20px;
+}
+
+.boton {
+    color: white;
+    padding: 8px 18px;
+    background-color: rgb(160, 160, 218);
+    border: 2px solid rgb(125, 125, 197);
+    text-decoration: none;
+    transform: .3;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.boton:hover {
+    background-color: rgb(125, 125, 197);
+}
+
+.producto {
+    width: 100%;
+}
+
+.producto img {
+    width: 100%;
+}
+
+aside {
+    width: 35%;
+}
+
+footer {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    padding: 18px 0;
+    justify-content: space-between;
+    border-top: 5px solid rgb(160, 160, 218);
+}
+
+.iconos div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.iconos i {
+    font-size: 25px;
+}
+
+footer li {
+    list-style: none;
+}
+
+.copyright {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.ventana {
+    align-items: center;
+    background-color: #000000b3;
+    justify-content: center;
+    display: flex;
+    left: 0;
+    min-height: 100vh;
+    min-width: 100%;
+    overflow-x: hidden;
+    position: fixed;
+    top: 0;
+    transition-duration: .5s;
+    z-index: 2;
+}
+
+.ventanaEmergente2 {
+    width: 400px;
+    background-color: #ffffff;
+}
+
+.tituloVentana {
+    padding: 15px;
+    border-bottom: 2px solid rgb(31, 28, 28);
+}
+
+.inputsVentana {
+    padding: 15px;
+}
+
+.inputsVentana div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputsVentana div input {
+    height: 30px;
+}
+
+.inputsVentana button {
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+textarea {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.categoriaListaProducots {
+    width: 95%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.categoriaListaProducots aside {
+    width: 20%;
+}
+
+.categoriaListaProducots li {
+    padding-bottom: 10px;
+}
+
+.categoriaListaProducots li:hover {
+    font-weight: bold;
+}
+
+.categoriaListaProducots article {
+    width: 75%;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.categoriaListaProducots article h2 {
+    text-align: left;
+}
+
+.buscador {
+    width: 100%;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.buscador input {
+    width: 70%;
+    padding: 8px 0;
+    margin-right: 20px;
+}
+
+.listaGridProductos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(19%, 1fr));
+    grid-gap: 16px;
+    margin-bottom: 20px;
+}
+
+.infoDetalle {
+    display: flex;
+}
+
+.infoDetalle img {
+    width: 300px;
+}
+
+.pDetalles {
+    text-align: left;
+    width: 40%;
+    padding-left: 20px;
+}
+
+.nombreProductoDetalle {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.divAgregarProducto {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.agregar {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+.agregar i {
+    color: gray;
+    font-size: 45px;
+    transition: .3s;
+}
+
+.agregar i:hover {
+    color: #000000;
+}
+
+.precioDetalle {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.table {
+    border: 1px solid gray;
+}
+
+.slideshow {
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.slider li img {
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+    width: 100%;
+}
+
+.slider .caption {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    height: 40vh;
+    flex-direction: column;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    padding: 15px 10px;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+
+.li-dark:before {
+    background-color: #000000;
+    content: "";
+    position: absolute;
+    opacity: .2;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+}
+
+.caption p {
+    font-size: 3vh;
+    width: 50%;
+}
+
+.pagination {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    left: 0;
+    position: absolute;
+    top: 305px;
+    width: 100%;
+}
+
+.pagination-item {
+    align-items: center;
+    background: rgba(255, 255, 255, 0.5);
+    border: 2px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 22px;
+    margin: 0 10px;
+    overflow: hidden;
+    text-align: center;
+    transition: all 300ms;
+    width: 22px;
+}
+
+.prueba {
+    align-items: center;
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.prueba:hover {
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+.pagination-item:hover {
+    transform: scale(1.8);
+}
+
+.pagination-item img {
+    display: inline-block;
+    height: 100%;
+    max-width: none;
+    opacity: 0;
+    transform: scale(1);
+    transition: all 300ms;
+}
+
+.pagination-item:active img {
+    background: white;
+}
+
+.pagination-item:hover img {
+    opacity: 1;
+    transform: scale(1);
+}
+
+@media screen and (min-width:320px) {
+    .slider li img {
+        height: 375px;
+    }
+    .slider .caption p {
+        display: none;
+    }
+    .slider .caption h1 {
+        font-size: 60px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .slider .caption p {
+        display: block;
+    }
+    .slider .caption h1 {
+        font-size: 40px;
+    }
+    .slider li img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.c-slider-new {
+    width: 100%;
+}
+
+.c-slider-new__img {
+    /* height: 100%; */
+    width: 100%;
+}
+
+
+/* @media (max-width: 1040px){
+
+} */
+
+@media (max-width: 765px) {
+    .contenidoInicio {
+        flex-direction: column;
+    }
+    .informacionInicio,
+    aside {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .novedadesProductos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.iniciarSesion {
+    border-radius: 10px;
+    border: 5px solid rgb(160, 160, 218);
+    padding: 40px;
+    margin: 40px auto;
+    width: 400px;
+}
